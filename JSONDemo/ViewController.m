@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WeatherModel.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+ 
+    NSURL *url = [NSURL URLWithString:@"http://www.weather.com.cn/adat/sk/101010100.html"];
+    
+    NSError *error = nil;
+    
+    NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
+    WeatherModel *weather = [[WeatherModel alloc] initWithString:jsonString error:&error];
+    NSLog(@"%@",weather);
 }
 
 

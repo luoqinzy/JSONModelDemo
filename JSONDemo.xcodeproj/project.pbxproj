@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D29BB6D77CF3696CF90363 /* libPods-JSONDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 147DF19652641BCF70DD5597 /* libPods-JSONDemo.a */; };
 		322580702095674900F70DBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225806F2095674900F70DBE /* AppDelegate.m */; };
 		322580732095674900F70DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580722095674900F70DBE /* ViewController.m */; };
 		322580762095674900F70DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322580742095674900F70DBE /* Main.storyboard */; };
 		322580782095674E00F70DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322580772095674E00F70DBE /* Assets.xcassets */; };
 		3225807B2095674E00F70DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322580792095674E00F70DBE /* LaunchScreen.storyboard */; };
 		3225807E2095674E00F70DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225807D2095674E00F70DBE /* main.m */; };
+		3225808C2095749B00F70DBE /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225808B2095749B00F70DBE /* WeatherModel.m */; };
+		3225808F209574AB00F70DBE /* WeatherInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225808E209574AB00F70DBE /* WeatherInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		147DF19652641BCF70DD5597 /* libPods-JSONDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSONDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3225806B2095674900F70DBE /* JSONDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3225806E2095674900F70DBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3225806F2095674900F70DBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		3225807A2095674E00F70DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3225807C2095674E00F70DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3225807D2095674E00F70DBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3225808A2095749B00F70DBE /* WeatherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		3225808B2095749B00F70DBE /* WeatherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		3225808D209574AB00F70DBE /* WeatherInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherInfoModel.h; sourceTree = "<group>"; };
+		3225808E209574AB00F70DBE /* WeatherInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherInfoModel.m; sourceTree = "<group>"; };
+		A99D268EAC707F8B0AFE461B /* Pods-JSONDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONDemo/Pods-JSONDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B656F196E72495321321FCF7 /* Pods-JSONDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONDemo/Pods-JSONDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D29BB6D77CF3696CF90363 /* libPods-JSONDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				3225806D2095674900F70DBE /* JSONDemo */,
 				3225806C2095674900F70DBE /* Products */,
+				89E09B777C3B6B582A4994E3 /* Pods */,
+				9FDF2834A3161FF7E5522616 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +80,29 @@
 				322580792095674E00F70DBE /* LaunchScreen.storyboard */,
 				3225807C2095674E00F70DBE /* Info.plist */,
 				3225807D2095674E00F70DBE /* main.m */,
+				3225808A2095749B00F70DBE /* WeatherModel.h */,
+				3225808B2095749B00F70DBE /* WeatherModel.m */,
+				3225808D209574AB00F70DBE /* WeatherInfoModel.h */,
+				3225808E209574AB00F70DBE /* WeatherInfoModel.m */,
 			);
 			path = JSONDemo;
+			sourceTree = "<group>";
+		};
+		89E09B777C3B6B582A4994E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A99D268EAC707F8B0AFE461B /* Pods-JSONDemo.debug.xcconfig */,
+				B656F196E72495321321FCF7 /* Pods-JSONDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FDF2834A3161FF7E5522616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147DF19652641BCF70DD5597 /* libPods-JSONDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 322580812095674E00F70DBE /* Build configuration list for PBXNativeTarget "JSONDemo" */;
 			buildPhases = (
+				8C018950D00380E1EF64DD21 /* [CP] Check Pods Manifest.lock */,
 				322580672095674900F70DBE /* Sources */,
 				322580682095674900F70DBE /* Frameworks */,
 				322580692095674900F70DBE /* Resources */,
@@ -136,13 +171,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C018950D00380E1EF64DD21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		322580672095674900F70DBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				322580732095674900F70DBE /* ViewController.m in Sources */,
+				3225808F209574AB00F70DBE /* WeatherInfoModel.m in Sources */,
 				3225807E2095674E00F70DBE /* main.m in Sources */,
+				3225808C2095749B00F70DBE /* WeatherModel.m in Sources */,
 				322580702095674900F70DBE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +339,7 @@
 		};
 		322580822095674E00F70DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99D268EAC707F8B0AFE461B /* Pods-JSONDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +357,7 @@
 		};
 		322580832095674E00F70DBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B656F196E72495321321FCF7 /* Pods-JSONDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

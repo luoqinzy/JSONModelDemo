@@ -1,0 +1,16 @@
+PODS:
+  - JSONModel (1.7.0)
+
+DEPENDENCIES:
+  - JSONModel
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JSONModel
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+
+PODFILE CHECKSUM: 065799f2553cbd074afa274398bd992802701c4a
+
+COCOAPODS: 1.5.0
